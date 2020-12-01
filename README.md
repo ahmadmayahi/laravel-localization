@@ -6,9 +6,9 @@
 [![Open Source Helpers](https://www.codetriage.com/mcamara/laravel-localization/badges/users.svg)](https://www.codetriage.com/mcamara/laravel-localization)
 [![Reviewed by Hound](https://img.shields.io/badge/Reviewed_by-Hound-8E64B0.svg)](https://houndci.com)
 
-Easy i18n localization for Laravel, an useful tool to combine with Laravel localization classes.
+Easy i18n localization for Laravel, a useful tool to combine with Laravel localization classes.
 
-The package offers the following:
+The package offers the following features:
 
  - Detect language from browser
  - Smart redirects (Save locale in session/cookie)
@@ -50,7 +50,11 @@ The package offers the following:
 
 ## Installation
 
-Install the package via composer: `composer require mcamara/laravel-localization`
+Install the package via composer: 
+
+```bash
+composer require mcamara/laravel-localization
+```
 
 For Laravel 5.4 and below it necessary to [register the service provider](/ADDITIONS.md#for-laravel-5.4-and-below).
 
